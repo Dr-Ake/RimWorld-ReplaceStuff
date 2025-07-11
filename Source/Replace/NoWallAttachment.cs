@@ -12,7 +12,7 @@ using Verse;
 
 namespace Replace_Stuff
 {
-	[HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.GetWallAttachedTo), [typeof(IntVec3), typeof(Rot4), typeof(Map)])]
+        [HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.GetWallAttachedTo), new Type[] { typeof(IntVec3), typeof(Rot4), typeof(Map) })]
 	public static class NoWallAttachment
 	{
 		//public static Thing GetWallAttachedTo(IntVec3 pos, Rot4 rot, Map map)

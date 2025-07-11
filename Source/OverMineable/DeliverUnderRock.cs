@@ -14,7 +14,7 @@ namespace Replace_Stuff.OverMineable
 {
 
 	// In CanConstruct, skip FirstBlockingThing if it's just a haul job
-	[HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.CanConstruct), [typeof(Thing), typeof(Pawn), typeof(bool), typeof(bool), typeof(JobDef)])]
+        [HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.CanConstruct), new Type[] { typeof(Thing), typeof(Pawn), typeof(bool), typeof(bool), typeof(JobDef) })]
 	public static class DeliverUnderRock
 	{
 		//public static bool CanConstruct(Thing t, Pawn p, bool checkSkills = true, bool forced = false, JobDef jobForReservation = null)
