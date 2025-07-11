@@ -56,7 +56,7 @@ namespace Replace_Stuff
 	[HarmonyPatch(typeof(GenConstruct), nameof(GenConstruct.GetAttachedBuildings))]
 	public static class NoAttachedBuildings
 	{
-		private static List<Thing> emptyList = [];
+                private static readonly List<Thing> emptyList = new List<Thing>();
 
 		//public static List<Thing> GetAttachedBuildings(Thing thing)
 		public static bool Prefix(Thing thing, ref List<Thing> __result)
