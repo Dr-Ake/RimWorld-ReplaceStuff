@@ -5,7 +5,6 @@
 
   <Vent_Over.label>Überwand-Lüftung</Vent_Over.label>
   
-  <Cooler_Over.label>Überwand-Kühlung</Cooler_Over.label>
   <Cooler_Over.description>Ein Gerät zum Kühlen der Luft, das über eine Wand gebaut wird. Es erzeugt einerseits Kälte, aber generiert auf der anderen Seite recht viel Wärme. Die Kühlung kann benutzt werden, um im Sommer einen Raum zu kühlen, oder auch um einen Kühlraum zu betreiben.</Cooler_Over.description>
 
   <Cooler_Over2W.label>Überwand-Kühlung (Breit)</Cooler_Over2W.label>
