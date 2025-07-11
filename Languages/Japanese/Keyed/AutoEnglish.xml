@@ -14,6 +14,6 @@
   <TD.FailedStuffBeingReplaced>材料が置き換えられました</TD.FailedStuffBeingReplaced>
   <TD.SettingsPreferredBridge>必要に応じて設置する橋の優先順位:</TD.SettingsPreferredBridge>
   <TD.SettingsBridgeResources>(優先順位第一は資源がある橋;優先順位第二はこのリストの順位です-ドラッグアンドドロップで並べ替え)</TD.SettingsBridgeResources>
-  <TD.ReplacementAlreadyInProgess>建て替えはすでに実行中です.</TD.ReplacementAlreadyInProgess>
+  <TD.ReplacementAlreadyInProgress>建て替えはすでに実行中です.</TD.ReplacementAlreadyInProgress>
 
 </LanguageData>
