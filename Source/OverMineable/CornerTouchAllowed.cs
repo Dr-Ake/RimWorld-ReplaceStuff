@@ -65,7 +65,7 @@ namespace Replace_Stuff.OverMineable
 
 
 	//Make sure mineable drop is in miner's region so it's not blocked off 
-	[HarmonyPatch(typeof(Mineable), "TrySpawnYield", [typeof(Map), typeof(bool), typeof(Pawn)])]
+        [HarmonyPatch(typeof(Mineable), "TrySpawnYield", new Type[] { typeof(Map), typeof(bool), typeof(Pawn) })]
 	public static class DropOnPawn
 	{
 		//private void TrySpawnYield(Map map, float yieldChance, bool moteOnWaste, Pawn pawn)
