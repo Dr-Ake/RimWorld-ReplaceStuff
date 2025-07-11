@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	<BuildersTryMine.label>Builders will try to mine valuables</BuildersTryMine.label>
-	<BuildersTryMine.helpText>Note: Placing a building over valuable ore will allow builders to mine the ore. Ore can be wasted if mined with low skill. If your builders are not skilled at mining, you may want to cancel your building project and let skilled miners do their job first.</BuildersTryMine.helpText>
-</LanguageData>
