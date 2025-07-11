@@ -7,7 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace Replace_Stuff.Replace;
+namespace Replace_Stuff.Replace
+{
 
 // 1.6 made a new job to specifically deconstruct for blueprints. Noooo
 // WorkGiver_ConstructDeliverResourcesToBlueprints will do it anyway! The new job, what, only is higher priority?
@@ -19,5 +20,6 @@ public static class NoDeconstructForBlueprint
 	{
 		__result = Enumerable.Empty<Thing>();
 		return false;
-	}
+        }
+}
 }
